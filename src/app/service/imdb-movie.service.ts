@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { Http } from '@angular/http';
+import { HttpClient } from '@angular/common/http';
 
 
 @Injectable({
@@ -7,13 +7,14 @@ import { Http } from '@angular/http';
 })
 export class ImdbMovieService {
 
-  constructor( private http : Http) { }
+  constructor( private http : HttpClient) { }
 
-
+ 
     
-
+ 
 getmovie(){
-   return this.http.get('http://localhost:3000/posts/')  
+   return this.http.get('http://geekflux.northeurope.cloudapp.azure.com:3000/movies/')    
       
-  }
-}
+  } 
+}       
+ 

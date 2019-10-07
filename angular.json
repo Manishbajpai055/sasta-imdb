@@ -25,12 +25,12 @@
             ],
             "styles": [
               "src/styles.css",
-              "/home/geekflux/angular/sasta-imdb/node_modules/font-awesome/css/font-awesome.css",
-              "/home/geekflux/angular/sasta-imdb/node_modules/materialize-css/dist/css/materialize.css"
+              "node_modules/font-awesome/css/font-awesome.css",
+              "node_modules/materialize-css/dist/css/materialize.css"
             ],
             "scripts": [
-              "/home/geekflux/angular/sasta-imdb/node_modules/jquery/dist/jquery.js",
-              "/home/geekflux/angular/sasta-imdb/node_modules/materialize-css/dist/js/materialize.js"
+              "node_modules/jquery/dist/jquery.js",
+              "node_modules/materialize-css/dist/js/materialize.js"
             ]
           },
           "configurations": {

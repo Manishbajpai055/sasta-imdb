@@ -5,7 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ImdbMovieComponent } from './imdb-movie/imdb-movie.component';
 
-import {  HttpModule } from '@angular/http';
+import {  HttpClientModule } from '@angular/common/http';
 
 
 @NgModule({
@@ -16,7 +16,7 @@ import {  HttpModule } from '@angular/http';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpModule
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

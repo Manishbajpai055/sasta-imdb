@@ -11,7 +11,6 @@ import { jsonpFactory } from '@angular/http/src/http_module';
 })
 export class ImdbMovieComponent implements OnInit {
 movie :any;
-  res: [] = [];
   constructor(private imdbs : ImdbMovieService) { }
 
   ngOnInit() {
@@ -20,8 +19,8 @@ movie :any;
   }  
   private loadAllUsers() {
     this.imdbs.getmovie().subscribe(res => {
-        this.movie = res;
-        console.log(res)
+        this.movie = res;  
+        console.log(this.movie)
         
     });
 } 

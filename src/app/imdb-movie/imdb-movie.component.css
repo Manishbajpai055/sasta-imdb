@@ -1,0 +1,16 @@
+.card .card-content {
+    padding: 9px;
+        padding-top: 9px;
+        padding-right: 9px;
+        padding-bottom: 9px;
+        padding-left: 9px;
+    border-radius: 0 0 2px 2px;
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 2px;
+        border-bottom-left-radius: 2px;
+        
+}
+.material-class{
+    float: right;
+}
